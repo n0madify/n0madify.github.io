@@ -42,8 +42,8 @@ export default {
     link: [
       { rel: 'canonical', href: 'https://nomadify.ca' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'shortcut icon', type: 'image/png', href: '/coffee.png', sizes: '64x64', alt: 'Coffee Cup' },
-      { rel: 'apple-touch-icon', type: 'image/png', href: '/coffee.png', sizes: '76x76', alt: 'Coffee Cup' },
+      { rel: 'shortcut icon', type: 'image/png', href: '/compass.png', sizes: '64x64', alt: 'Compass' },
+      { rel: 'apple-touch-icon', type: 'image/png', href: '/compass.png', sizes: '76x76', alt: 'Compass' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Raleway&display=swap' }
