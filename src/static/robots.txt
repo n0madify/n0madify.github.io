@@ -1,0 +1,3 @@
+Sitemap: https://nomadify.ca/sitemap.xml
+User-agent: *
+Disallow: /~img/source
