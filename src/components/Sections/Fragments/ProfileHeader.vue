@@ -10,7 +10,10 @@
         </div>
       </div>
     </div>
-    <div class="w-full px-4 text-center justify-center justify-self-center md:text-right md:justify-end md:justify-self-end">
+    <div
+      v-if="shareUrl"
+      class="w-full px-4 text-center justify-center justify-self-center md:text-right md:justify-end md:justify-self-end"
+    >
       <div class="py-1 px-3 md:-mt-16">
         <!--https://tech.cymi.org/tweet-intents-->
         <a
@@ -32,8 +35,7 @@ export default {
   name: 'ProfileHeader',
   props: {
     shareUrl: {
-      type: String,
-      required: true
+      type: String
     },
     location: {
       type: String,

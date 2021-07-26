@@ -7,10 +7,10 @@
       <div class="items-center flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
           <div class="pr-12">
-            <h1 class="text-white font-semibold text-5xl">
-              Welcome to Nomad•ify.
+            <h1 class="text-white text-5xl font-serif uppercase">
+              NOMAD•IFY
             </h1>
-            <p class="mt-4 text-lg text-gray-300">
+            <p class="mt-4 text-2xl text-gray-300 font-serif">
               A blog about digital nomadism and minimalism.
             </p>
           </div>

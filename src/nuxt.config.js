@@ -43,7 +43,10 @@ export default {
       { rel: 'canonical', href: 'https://nomadify.ca' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'shortcut icon', type: 'image/png', href: '/coffee.png', sizes: '64x64', alt: 'Coffee Cup' },
-      { rel: 'apple-touch-icon', type: 'image/png', href: '/coffee.png', sizes: '76x76', alt: 'Coffee Cup' }
+      { rel: 'apple-touch-icon', type: 'image/png', href: '/coffee.png', sizes: '76x76', alt: 'Coffee Cup' },
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Raleway&display=swap' }
     ]
   },
 
@@ -137,7 +140,15 @@ export default {
     cssPath: 'node_modules/tailwindcss/tailwind.css',
     configPath: 'tailwind.config.js',
     exposeConfig: false,
-    config: {}
+    config: {
+      theme: {
+        fontFamily: {
+         'sans': ['Raleway'],
+         'serif': ['"Josefin Slab"'],
+         'body': ['Raleway'],
+        }
+      }
+    }
   }
 
 }

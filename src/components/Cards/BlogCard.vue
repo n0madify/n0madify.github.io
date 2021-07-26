@@ -18,7 +18,7 @@
         :style="'background-image: url(' + cover + ')'"
       />
       <div class="px-5 py-3">
-        <h3 class="text-gray-700 uppercase">
+        <h3 class="text-gray-700 uppercase font-serif text-lg">
           {{ title }}
         </h3>
         <div class="text-gray-500 mt-2">

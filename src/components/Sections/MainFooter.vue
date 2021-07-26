@@ -4,7 +4,7 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4">
-          <h4 class="text-3xl font-semibold text-white">
+          <h4 class="text-3xl font-semibold text-white font-serif">
             Follow us!
           </h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-500">
@@ -19,7 +19,7 @@
       </div>
       <div class="flex flex-wrap items-center md:justify-between justify-center mt-16">
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-          <div class="text-sm text-white font-semibold py-1">
+          <div class="text-xs text-white font-medium py-1">
             Made with 😀 by Guillaume Clement.
           </div>
         </div>

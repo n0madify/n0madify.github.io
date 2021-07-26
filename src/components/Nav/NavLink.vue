@@ -2,7 +2,7 @@
   <li class="nav-item text-gray-800 hover:text-gray-600">
     <NuxtLink
       :to="href"
-      class="px-3 py-2 flex items-center text-xs uppercase font-bold"
+      class="px-3 py-2 flex items-center text-xs font-medium uppercase"
     >
       <div class="text-lg leading-lg">
         <font-awesome-icon :icon="icon" />
