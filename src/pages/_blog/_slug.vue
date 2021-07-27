@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div class="font-body">
     <NavBar />
     <main>
       <section class="relative block" style="height: 500px;">
@@ -103,6 +103,8 @@ export default {
   line-height: 1.5;
   /* mb-2 */
   margin-bottom: 0.5rem;
+  /* font-serif */
+  font-family: "Josefin Slab", "Times New Roman", "Times", "serif";
 }
 
 .nuxt-content h2 {
@@ -113,6 +115,8 @@ export default {
   line-height: 1.5;
   /* mb-2 */
   margin-bottom: 0.5rem;
+  /* font-serif */
+  font-family: "Josefin Slab", "Times New Roman", "Times", "serif";
 }
 
 .nuxt-content h3 {
@@ -123,6 +127,8 @@ export default {
   line-height: 1.5;
   /* mb-2 */
   margin-bottom: 0.5rem;
+  /* font-serif */
+  font-family: "Josefin Slab", "Times New Roman", "Times", "serif";
 }
 
 .nuxt-content p {

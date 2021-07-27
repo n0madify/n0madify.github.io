@@ -143,9 +143,9 @@ export default {
     config: {
       theme: {
         fontFamily: {
-         'sans': ['Raleway'],
-         'serif': ['"Josefin Slab"'],
-         'body': ['Raleway'],
+         'sans': ['Raleway', 'Roboto', 'Arial', 'sans-serif'],
+         'serif': ['"Josefin Slab"', '"Times New Roman"', 'Times', 'serif'],
+         'body': ['Raleway', 'Roboto', 'Arial', 'sans-serif'],
         }
       }
     }

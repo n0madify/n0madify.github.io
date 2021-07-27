@@ -2,10 +2,7 @@
   <div class="grid grid-cols-1 md:grid-cols-3 gap-2 justify-items-stretch mt-24 md:mt-20">
     <div class="md:col-start-2 w-full px-4 flex justify-center justify-self-center">
       <div class="text-center mt-0 md:mt-6">
-        <h3 class="text-4xl font-semibold leading-normal mb-2 text-gray-800 mb-2">
-          Nomad•ify
-        </h3>
-        <div class="text-sm leading-normal mt-3 mb-2 text-gray-700 font-medium uppercase">
+        <div class="text-sm leading-normal mt-1 mb-2 text-gray-700 font-medium uppercase">
           <font-awesome-icon :icon="['fas', 'map-marker-alt']" class="mr-2 text-lg text-gray-700" />{{ location }}
         </div>
       </div>
