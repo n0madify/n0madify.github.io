@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/", {data:[{blogs:[{slug:"2021-07-25-our-first-post",description:"Why have we created Nomad•ify?",title:"Our First Post",cover:"https:\u002F\u002Fimages.unsplash.com\u002Fphoto-1625806571384-2830e3ba80d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"}]}],fetch:[],mutations:void 0});
