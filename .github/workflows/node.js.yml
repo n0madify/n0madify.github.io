@@ -38,6 +38,7 @@ jobs:
     - run: npm test --prefix src
     - run: npm run generate --prefix src
     - name: Deploy to Github Pages
+      if: ${{ github.event_name != 'pull_request' }}
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
