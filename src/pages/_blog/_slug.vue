@@ -96,13 +96,13 @@ export default {
 .nuxt-content h1 {
   /* text-3xl */
   font-size: 1.875rem;
-  line-height: 2.25rem;
   /* font-semibold */
   font-weight: 600;
   /* leading-normal */
   line-height: 1.5;
   /* mb-2 */
   margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   /* font-serif */
   font-family: "Josefin Slab", "Times New Roman", "Times", "serif";
 }
@@ -110,11 +110,11 @@ export default {
 .nuxt-content h2 {
   /* text-2xl */
   font-size: 1.5rem;
-  line-height: 2rem;
   /* leading-normal */
   line-height: 1.5;
   /* mb-2 */
   margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   /* font-serif */
   font-family: "Josefin Slab", "Times New Roman", "Times", "serif";
 }
@@ -122,19 +122,18 @@ export default {
 .nuxt-content h3 {
   /* text-xl */
   font-size: 1.25rem;
-  line-height: 1.75rem;
   /* leading-normal */
   line-height: 1.5;
   /* mb-2 */
   margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   /* font-serif */
   font-family: "Josefin Slab", "Times New Roman", "Times", "serif";
 }
 
-.nuxt-content p {
+.nuxt-content {
   /* text-lg */
   font-size: 1.125rem;
-  line-height: 1.75rem;
   /* leading-relaxed */
   line-height: 1.625;
   /* mb-4 */
@@ -149,6 +148,12 @@ export default {
   /* text-gray-400 */
   --tw-text-opacity: 1;
   color: rgba(156, 163, 175, var(--tw-text-opacity));
+}
+
+.nuxt-content ul {
+  list-style: disc;
+  margin: 1.5em;
+  padding: 0.5em;
 }
 
 .nuxt-content blockquote  {
