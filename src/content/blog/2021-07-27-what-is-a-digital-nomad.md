@@ -1,7 +1,7 @@
 ---
 title: What is a Digital Nomad?
 description: We explain what Digital Nomads are and why we decided to change our lifestyle.
-cover: https://unsplash.com/photos/ypLls552gLk
+cover: https://images.unsplash.com/photo-1627443825969-5de26eab5563?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1567&q=80
 createdAt: 2021/07/27
 location: Canmore, AB, Canada
 ---
