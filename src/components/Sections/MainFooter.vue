@@ -20,7 +20,7 @@
       <div class="flex flex-wrap items-center md:justify-between justify-center mt-16">
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
           <div class="text-xs text-white font-medium py-1">
-            Made with 😀 by Guillaume Clement.
+            Made with 😀 by <a href="https://twitter.com/guillaumecleme">Guillaume Clement</a>.
           </div>
         </div>
       </div>
