@@ -108,7 +108,7 @@ export default {
   },
 
   googleAnalytics: {
-    id: 'G-DDSVX245JP'
+    id: 'UA-203759183-1'
   },
 
   fontawesome: {
